@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+	background: url(images/B83HT.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	position: absolute;
+	background-color: #0C708B; 
+	color: white;
+	top: 0;
+	left: 0; 
+	width: 100%; 
+	line-height: 60px; 
+	text-align: center; 
+	font-family: "PT Sans", sans-serif; 
+}
+
+.hello-text {
+	font-size: 6em; 
+	font-family: "PT Sans", sans-serif; 
+	color: white;
+}
+
+.thanks-text{
+	font-size: 2em;
+	font-family: "PT Sans", sans-serif; 
+	color: white; 
+}
+
+p {
+	font-family: "PT Sans", sans-serif; 
+	color: white; 
+	margin: 20px;
+}
+
+.about-me-box {
+	margin-right: auto;
+	margin-left: auto;
+}
+.column {
+	float: left;
+	width: 25%; 
+	height: 80%;
+	border: dotted white 1px;
+	margin: 25px; 
+	padding-right: 2%;	
+	padding-left: 2%; 
+}
+
+.row {
+	clear: both; 
+}
+
+.about-title {
+	color: white;
+	font-size: 2em; 
+	text-align: center; 
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0; 
+	width: 100%;
+	background-color: #0C708B; 
+	color: white;
+	line-height: 60px; 
+	text-align: center; 
+	font-family: "PT Sans", sans-serif; 
+}
