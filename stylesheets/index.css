@@ -67,8 +67,6 @@
 	opacity: 0.8;
 	color: white;
 	font-family: 'Raleway'; 
-	padding-left: 1em; 
-	padding-right: 1em; 
 }
 
 .me {
@@ -148,16 +146,14 @@
 .clips {
 	text-align: center; 
 	font-family: 'Raleway'; 
-	background: url(https://38.media.tumblr.com/tumblr_mbnkmb32xV1rynku7.gif);
-	background-size: cover;
-	background-position: center;
+	background: url(../images/pattern.png);
 	width: 100%;
 	height: auto;
 }
 
 .container {
-	background: grey; 
-	opacity: 0.7;
+	background: #0079BB; 
+	opacity: 0.9;
 	width: 60%;
 	margin-right: auto; 
 	margin-left: auto; 
@@ -174,4 +170,8 @@ a {
 	font-family: 'Oleo Script'; 
 	text-decoration: none; 
 	color: white;
+}
+
+.writing-home {
+	color: black;
 }
