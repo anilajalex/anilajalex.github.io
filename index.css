@@ -1,51 +1,123 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 
-body {
-	background: url(images/B83HT.jpg);
+
+/*HOMEPAGE*/
+
+.homepage {
+	background: url(https://38.media.tumblr.com/776ce70362dc3ba9849a8dc298774527/tumblr_n0gopa2TBK1toamj8o1_500.gif);
 	background-size: cover;
 	background-position: center;
+	width: 100%;
+	height: auto;
+	/*background-color: black; */
 }
 
-header {
-	position: absolute;
-	background-color: #0C708B; 
-	color: white;
-	top: 0;
-	left: 0; 
-	width: 100%; 
-	line-height: 60px; 
+.links {
 	text-align: center; 
-	font-family: "PT Sans", sans-serif; 
+	font-family: 'Oleo Script'; 
 }
 
-.hello-text {
-	font-size: 6em; 
-	font-family: "PT Sans", sans-serif; 
+.link {
+	color: #FFFFFF;
+	position: relative;
+	margin-left: 20px;
+	top: 0; 
+	left: 0; 
+	font-size: 1em; 
+	text-decoration: none;
+}
+
+.intro {
+	color: #FFFFFF;
+	text-align: center; 
+	margin: 4em; 
+	font-family: 'Oleo Script'; 
+}
+
+.hi {
+	font-size: 8em; 
+	text-align: center; 
+	color: #FFFFFF; 
+	font-family: 'Oleo Script'; 
+	/*background-color: #ffdd00; */
+	/*width: 2em;
+	margin-left: auto; 
+	margin-right: auto;*/
+}
+
+.icons {
+	text-align: center; 
+	margin: 1em;
+}
+
+.icon {
+	height: 4em; 
+	margin: 0.15em;
+}
+
+/*ABOUT*/
+
+.about {
+	text-align: center; 
+	width: 100%;
+	height: 20em;
+	background-color: #0079BB; 
+	opacity: 0.8;
 	color: white;
+	font-family: 'Raleway'; 
 }
 
-.thanks-text{
-	font-size: 2em;
-	font-family: "PT Sans", sans-serif; 
-	color: white; 
+.me {
+	margin-top: 8em;
+	padding-top: 2em;
+	font-family: 'Oleo Script'; 
 }
 
-p {
-	font-family: "PT Sans", sans-serif; 
-	color: white; 
-	margin: 20px;
+.homepage-link  {
+	color: black;
 }
 
-.about-me-box {
-	margin-right: auto;
-	margin-left: auto;
+/*PROJECTS*/
+
+.projects {
+	text-align: center; 
+	width: 100%;
+	height: 40em;
+	background-color: #0079BB; 
+	opacity: 0.8;
+	color: white;
+	font-family: 'Raleway'; 
 }
+
+.pro {
+	margin-top: 8em;
+	padding-top: 2em;
+	font-family: 'Oleo Script'; 
+
+}
+
+.project {
+	height: 10em; 
+	margin: 2em;
+}
+
+.project1 {
+	float: left;
+	margin: auto;
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+	font-family: 'Oleo Script'; 
+}
+
 .column {
 	float: left;
-	width: 25%; 
-	height: 80%;
-	border: dotted white 1px;
-	margin: 25px; 
+	width: 29%; 
+	height: 100%;
+	/*border-right: dotted white 1px;*/
 	padding-right: 2%;	
 	padding-left: 2%; 
 }
@@ -54,20 +126,17 @@ p {
 	clear: both; 
 }
 
-.about-title {
-	color: white;
-	font-size: 2em; 
-	text-align: center; 
+#top {
+	height: 4em;
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  cursor: pointer;
 }
 
-footer {
-	position: fixed;
-	bottom: 0;
-	left: 0; 
-	width: 100%;
-	background-color: #0C708B; 
-	color: white;
-	line-height: 60px; 
+#thanks {
 	text-align: center; 
-	font-family: "PT Sans", sans-serif; 
+	font-family: 'Oleo Script'; 
+	font-size: 2em; 
+	color: white;
 }
