@@ -25,6 +25,7 @@
 	top: 0; 
 	left: 0; 
 	font-size: 1em; 
+	text-decoration: none; 
 	border-bottom: 2px solid;
 }
 
@@ -66,6 +67,8 @@
 	opacity: 0.8;
 	color: white;
 	font-family: 'Raleway'; 
+	padding-left: 1em; 
+	padding-right: 1em; 
 }
 
 .me {
@@ -107,10 +110,10 @@
 	margin: auto;
 }
 
-a {
-	color: white;
+.project-link {
 	text-decoration: none; 
 	font-family: 'Oleo Script'; 
+	color: white;
 }
 
 .column {
@@ -137,5 +140,38 @@ a {
 	text-align: center; 
 	font-family: 'Oleo Script'; 
 	font-size: 2em; 
+	color: white;
+}
+
+/*CLIPS*/
+
+.clips {
+	text-align: center; 
+	font-family: 'Raleway'; 
+	background: url(https://38.media.tumblr.com/tumblr_mbnkmb32xV1rynku7.gif);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	background: grey; 
+	opacity: 0.7;
+	width: 60%;
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-top: 2em; 
+	margin-bottom: 2em; 
+}
+
+.clips-text {
+	font-family: 'Oleo Script'; 
+	padding-top: 1em; 
+}
+
+a {
+	font-family: 'Oleo Script'; 
+	text-decoration: none; 
 	color: white;
 }
