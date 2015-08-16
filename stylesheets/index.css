@@ -4,18 +4,25 @@
 
 /*HOMEPAGE*/
 
+
 .homepage {
-	background: url(https://38.media.tumblr.com/776ce70362dc3ba9849a8dc298774527/tumblr_n0gopa2TBK1toamj8o1_500.gif);
-	background-size: cover;
-	background-position: center;
+/*	background: url(https://38.media.tumblr.com/776ce70362dc3ba9849a8dc298774527/tumblr_n0gopa2TBK1toamj8o1_500.gif);*/
+	background: url(http://41.media.tumblr.com/adac704645a622ab19f77527cfa0321d/tumblr_ncfww1hkXC1qzi5wbo6_500.jpg);
+	/*background-size: cover;
+	background-position: center;*/
 	width: 100%;
 	height: 25%;
 	/*background-color: black; */
 }
 
+img {
+	opacity: 1.0;
+}
+
 .links {
 	text-align: center; 
 	font-family: 'Oleo Script'; 
+	z-index: 2;
 }
 
 .link {
@@ -27,6 +34,7 @@
 	font-size: 1em; 
 	text-decoration: none; 
 	border-bottom: 2px solid;
+	z-index: 2;
 }
 
 .intro {
@@ -34,6 +42,7 @@
 	text-align: center; 
 	margin: 4em; 
 	font-family: 'Oleo Script'; 
+	z-index: 2;
 }
 
 .hi {
@@ -41,6 +50,7 @@
 	text-align: center; 
 	color: #FFFFFF; 
 	font-family: 'Oleo Script'; 
+	z-index: 2;
 	/*background-color: #ffdd00; */
 	/*width: 2em;
 	margin-left: auto; 
@@ -63,8 +73,8 @@
 	text-align: center; 
 	width: 100%;
 	height: 40em;
-	background-color: #0079BB; 
-	opacity: 0.8;
+	background-color: black; 
+	opacity: 0.7;
 	color: white;
 	font-family: 'Raleway'; 
 }
@@ -80,6 +90,7 @@
 	border-radius: 50%;
 	height: 10em; 
 	width: 8em;
+	opacity: none;
 }
 
 .homepage-link  {
@@ -97,8 +108,8 @@
 	text-align: center; 
 	width: 100%;
 	height: 40em;
-	background-color: #0079BB; 
-	opacity: 0.8;
+	background-color: black; 
+	opacity: 0.7;
 	color: white;
 	font-family: 'Raleway'; 
 }
@@ -113,6 +124,10 @@
 .project {
 	height: 10em; 
 	margin: 2em;
+}
+
+.project:hover {
+	opacity: 1.0;
 }
 
 .project1 {
