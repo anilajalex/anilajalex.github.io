@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(http://fonts.googleapis.com/css?family=Chivo:900); 
 
 
 /*HOMEPAGE*/
@@ -15,9 +16,9 @@
 	/*background-color: black; */
 }
 
-img {
+/*img {
 	opacity: 1.0;
-}
+}*/
 
 .links {
 	text-align: center; 
@@ -38,23 +39,28 @@ img {
 }
 
 .intro {
-	color: #FFFFFF;
-	text-align: center; 
+	/*color: #FFFFFF;*/
+	text-align: left; 
 	margin: 4em; 
 	font-family: 'Oleo Script'; 
-	z-index: 2;
+	/*z-index: 2;*/
+	margin: none;
 }
 
 .hi {
-	font-size: 8em; 
-	text-align: center; 
+	font-size: 4em; 
 	color: #FFFFFF; 
 	font-family: 'Oleo Script'; 
 	z-index: 2;
-	/*background-color: #ffdd00; */
-	/*width: 2em;
-	margin-left: auto; 
-	margin-right: auto;*/
+	text-align: center;
+	margin: none;
+	padding: none;
+	border: none;
+}
+
+h2 {
+	color: #FFFFFF;
+	text-align: center; 
 }
 
 .icons {
