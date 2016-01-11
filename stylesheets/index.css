@@ -5,22 +5,79 @@
 
 /*HOMEPAGE*/
 
+/*PARTICLES*/
 
-.homepage {
-/*	background: url(https://38.media.tumblr.com/776ce70362dc3ba9849a8dc298774527/tumblr_n0gopa2TBK1toamj8o1_500.gif);*/
-	background: url(http://41.media.tumblr.com/adac704645a622ab19f77527cfa0321d/tumblr_ncfww1hkXC1qzi5wbo6_500.jpg);
-	/*background-size: cover;
-	background-position: center;*/
-	width: 100%;
-	height: 25%;
-	/*background-color: black; */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 200px; 
 }
 
-/*img {
-	opacity: 1.0;
-}*/
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 
-.links {
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*NAME*/
+
+.title {
+  position: relative;
+  color: #bc1326;
+  padding: 20px 50px;
+}
+ 
+.title:before {
+  background: #bc1326;
+  color: white;
+  content: 'ANILA ALEXANDER';
+  overflow: hidden;
+  position: absolute;  
+  top: 0;  
+  left: 0;
+  padding: 20px 50px;
+    -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);  
+  clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
+  animation: slide 4s 1s linear infinite; 
+} 
+           
+@keyframes slide {      
+  50% {     
+    -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%); 
+  } 
+}  
+
+/*CHANGING TEXT*/
+
+#changeText {
+	position: absolute; 
+	color: black;
+	text-align: center; 
+	top: 12em;  
+  left: 0;
+  font-size: .25em; 
+}
+
+
+/*LINKS*/
+
+
+/*.links {
 	text-align: center; 
 	font-family: 'Oleo Script'; 
 	z-index: 2;
@@ -39,12 +96,9 @@
 }
 
 .intro {
-	/*color: #FFFFFF;*/
-	text-align: left; 
 	margin: 4em; 
 	font-family: 'Oleo Script'; 
-	/*z-index: 2;*/
-	margin: none;
+
 }
 
 .hi {
@@ -63,19 +117,26 @@ h2 {
 	text-align: center; 
 }
 
-.icons {
-	text-align: center; 
-	margin: 1em;
+.name {
+	border-bottom: 1px solid white; 
+	border-top: 1px solid white;
+	padding: 10px; 
+	font-size: 3em; 
+}*/
+
+#icons {
+	position: absolute;
 }
 
 .icon {
-	height: 4em; 
-	margin: 0.15em;
+	height: 25px; 
+	width: 25px; 
+	margin: 1px;
 }
 
-/*ABOUT*/
+/*ABOUT
 
-.about {
+/*.about {
 	text-align: center; 
 	width: 100%;
 	height: 40em;
@@ -110,7 +171,7 @@ h2 {
 
 /*PROJECTS*/
 
-.projects {
+/*.projects {
 	text-align: center; 
 	width: 100%;
 	height: 40em;
@@ -173,10 +234,10 @@ h2 {
 	font-size: 2em; 
 	color: white;
 }
-
+*/
 /*CLIPS*/
 
-.clips {
+/*.clips {
 	text-align: center; 
 	font-family: 'Raleway'; 
 	background: url(../images/pattern.png);
@@ -208,3 +269,7 @@ a {
 .writing-home {
 	color: black;
 }
+*/
+
+
+
