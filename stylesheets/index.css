@@ -5,7 +5,7 @@
 
 /*HOMEPAGE*/
 
-/*PARTICLES*/
+/*particles*/
 
 body {
   margin: 0;
@@ -18,23 +18,19 @@ body {
   font-size: 200px; 
 }
 
-canvas {
+/*canvas {
   display: block;
   vertical-align: bottom;
-}
+}*/
 
 #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #FFFFFF;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-/*NAME*/
+/*name*/
 
 .title {
   position: relative;
@@ -62,78 +58,46 @@ canvas {
   } 
 }  
 
-/*CHANGING TEXT*/
+/*changing text*/
 
 #changeText {
-	position: absolute; 
+	position: relative; 
 	color: black;
-	text-align: center; 
-	top: 12em;  
-  left: 0;
   font-size: .25em; 
+  margin-left: 50px;
 }
 
 
-/*LINKS*/
-
-
-/*.links {
-	text-align: center; 
-	font-family: 'Oleo Script'; 
-	z-index: 2;
-}
-
-.link {
-	color: #FFFFFF;
-	position: relative;
-	margin-left: 20px;
-	top: 0; 
-	left: 0; 
-	font-size: 1em; 
-	text-decoration: none; 
-	border-bottom: 2px solid;
-	z-index: 2;
-}
-
-.intro {
-	margin: 4em; 
-	font-family: 'Oleo Script'; 
-
-}
-
-.hi {
-	font-size: 4em; 
-	color: #FFFFFF; 
-	font-family: 'Oleo Script'; 
-	z-index: 2;
-	text-align: center;
-	margin: none;
-	padding: none;
-	border: none;
-}
-
-h2 {
-	color: #FFFFFF;
-	text-align: center; 
-}
-
-.name {
-	border-bottom: 1px solid white; 
-	border-top: 1px solid white;
-	padding: 10px; 
-	font-size: 3em; 
-}*/
+/*icons*/
 
 #icons {
-	position: absolute;
+	position: relative;
 }
 
 .icon {
-	height: 25px; 
-	width: 25px; 
-	margin: 1px;
+	display: inline;
+	height: 70px; 
+	width: 70px; 
+
 }
 
+/*links*/
+
+ul {
+	position: relative;
+	list-style-type: none; 
+	font-size: 20px; 
+	color: black;
+}
+
+li {
+	display: inline; 
+	padding: 10px;
+}
+
+a {
+	color: black;
+}
 /*ABOUT
 
 /*.about {

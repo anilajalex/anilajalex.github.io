@@ -112,7 +112,7 @@ particlesJS("particles-js", {
 
 	//Changing Text
 
-	var text = ["Full-Stack Web Developer", "Interactive Storyteller", "Journalist", "Cheesecake Enthusiast", "Traveler", "Designer"];
+	var text = ["full-stack web developer", "interactive storyteller", "journalist", "cheesecake enthusiast", "traveler", "designer"];
     var counter = 0;
     var elem = document.getElementById("changeText");
     setInterval(change, 1000);
