@@ -1,9 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
-@import url(http://fonts.googleapis.com/css?family=Chivo:900); 
+@import url(http://fonts.googleapis.com/css?family=Chivo:900);
 
 
 /*HOMEPAGE*/
+
+html {
+  /*max-width: 800px;*/
+  /*max-height: 800px;*/
+}
 
 /*particles*/
 
@@ -15,7 +20,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-size: 200px; 
+  font-size: 75px;
+}
+
+.lastname {
+  font-size: 40px;
+  padding-left: 60px;
+  color: #bc1326;
 }
 
 /*canvas {
@@ -23,50 +34,50 @@ body {
   vertical-align: bottom;
 }*/
 
-#particles-js {
+/*#particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #FFFFFF;
-}
+}*/
 
 /*name*/
 
-.title { 
+.title {
   position: relative;
   color: #bc1326;
   padding: 20px 50px;
 }
- 
+
 .title:before {
   background: #bc1326;
   color: white;
-  content: 'ANILA ALEXANDER';
+  content: 'ANILA';
   overflow: hidden;
-  position: absolute;  
-  top: 0;  
+  position: absolute;
+  top: 0;
   left: 0;
   padding: 20px 50px;
-    -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);  
+    -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
   clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
-  animation: slide 4s 1s linear infinite; 
-} 
-           
-@keyframes slide {      
-  50% {     
-    -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%); 
-  } 
-}  
-
-/*changing text*/
-
-#changeText {
-	position: relative; 
-	color: black;
-  font-size: .25em; 
-  margin-left: 50px;
+  animation: slide 4s 1s linear infinite;
 }
 
+@keyframes slide {
+  50% {
+    -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%);
+  }
+}
+
+.hiddenText {
+  display: none;
+  font-size: 20px;
+  color: #82888e;
+}
+
+.lastname:hover .hiddenText {
+  display: inline;
+}
 
 /*icons*/
 
@@ -76,22 +87,24 @@ body {
 
 .icon {
 	display: inline;
-	height: 70px; 
-	width: 70px; 
+	height: 50px;
+	width: 50px;
 
 }
 
 /*links*/
 
 ul {
-	position: relative;
-	list-style-type: none; 
-	font-size: 20px; 
+	position: absolute;;
+	list-style-type: none;
+	font-size: 15px;
 	color: black;
+  top: 0;
+  right: 0;
 }
 
 li {
-	display: inline; 
+	display: inline;
 	padding: 10px;
 }
 
@@ -101,44 +114,44 @@ a {
 
 /*ABOUT PAGE*/
 
-#about-me-container h1 {
-	font-size: 10px; 
+/*#about-me-container h1 {
+	font-size: 10px;
 }
 
 #about-me-container p {
-	font-size: 10px; 
+	font-size: 10px;
 }
 
 .tools li {
 	font-size: 10px;
 	display: list-item;
-	list-style-type: circle; 
+	list-style-type: circle;
 }
 
 
 
-/*ABOUT
+/*ABOUT*/
 
 /*.about {
-	text-align: center; 
+	text-align: center;
 	width: 100%;
 	height: 40em;
-	background-color: black; 
+	background-color: black;
 	opacity: 0.7;
 	color: white;
-	font-family: 'Raleway'; 
+	font-family: 'Raleway';
 }
 
 .me {
 	margin-top: 8em;
 	padding-top: 2em;
-	font-family: 'Oleo Script'; 
+	font-family: 'Oleo Script';
 }
 
 .ani_pic {
 	border: 7px solid white;
 	border-radius: 50%;
-	height: 10em; 
+	height: 10em;
 	width: 8em;
 	opacity: none;
 }
@@ -148,31 +161,31 @@ a {
 }
 
 .para {
-	padding-left: 5em; 
-	padding-right: 5em 
-}
+	padding-left: 5em;
+	padding-right: 5em
+}*/
 
 /*PROJECTS*/
 
 /*.projects {
-	text-align: center; 
+	text-align: center;
 	width: 100%;
 	height: 40em;
-	background-color: black; 
+	background-color: black;
 	opacity: 0.7;
 	color: white;
-	font-family: 'Raleway'; 
+	font-family: 'Raleway';
 }
 
 .pro {
 	margin-top: 8em;
 	padding-top: 2em;
-	font-family: 'Oleo Script'; 
+	font-family: 'Oleo Script';
 
 }
 
 .project {
-	height: 10em; 
+	height: 10em;
 	margin: 2em;
 }
 
@@ -186,68 +199,68 @@ a {
 }
 
 .project-link {
-	text-decoration: none; 
-	font-family: 'Oleo Script'; 
+	text-decoration: none;
+	font-family: 'Oleo Script';
 	color: white;
 }
 
 .column {
 	float: left;
-	width: 29%; 
+	width: 29%;
 	height: 100%;
-	padding-right: 2%;	
-	padding-left: 2%; 
+	padding-right: 2%;
+	padding-left: 2%;
 }
 
 .row {
-	clear: both; 
+	clear: both;
 }
 
 #top {
 	height: 4em;
 	display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   cursor: pointer;
 }
 
 #thanks {
-	text-align: center; 
-	font-family: 'Oleo Script'; 
-	font-size: 2em; 
+	text-align: center;
+	font-family: 'Oleo Script';
+	font-size: 2em;
 	color: white;
-}
-*/
+}*/
+
 /*CLIPS*/
 
 .clips {
-	text-align: center; 
-	font-family: 'Raleway'; 
+	text-align: center;
+	font-family: 'Raleway';
 	/*background: url(../images/pattern.png);*/
 	/*width: 100%;
 	height: auto;*/
 }
 
 .container {
-	/*background: #0079BB; 
+	/*background: #0079BB;
 	opacity: 0.9;
 	width: 60%;
-	margin-right: auto; 
-	margin-left: auto; 
-	margin-top: 2em; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
 	margin-bottom: 2em; */
 }
 
 .clips-text {
-	font-family: 'Raley'; 
-	padding-top: 5em; 
-	border-bottom: grey; 
-	border-top: grey; 
+	font-family: 'Raley';
+	padding-top: 5em;
+	border-bottom: grey;
+	border-top: grey;
 }
 
 .container a {
-	font-family: 'Oleo Script'; 
-	text-decoration: none; 
+	font-family: 'Oleo Script';
+	text-decoration: none;
 	color: #bc1326;
 }
 
@@ -264,9 +277,5 @@ a {
 }
 
 .clips-text {
-	font-size: 10px; 
+	font-size: 10px;
 }
-
-
-
-
