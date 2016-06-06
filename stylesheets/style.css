@@ -60,6 +60,10 @@
 */
 /*icons*/
 
+div.container {
+	width: 1100px;
+}
+
 #icons {
 	position: relative;
   bottom: 0;
@@ -106,6 +110,11 @@ a {
 .about-me-json {
   font-size: 15px;
 }
+
+pre {
+	width: 1100px;
+}
+
 
 pre:hover {
 	-webkit-background-clip: text;
