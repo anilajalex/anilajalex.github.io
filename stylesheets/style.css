@@ -5,7 +5,7 @@
 
 /*HOMEPAGE*/
 
-.title {
+/*.title {
   position: relative;
   color: #bc1326;
   padding: 20px 50px;
@@ -40,9 +40,9 @@
   font-size: 40px;
   color: #bc1326;
   padding-left: 60px;
-}
+}*/
 
-.hiddenText {
+/*.hiddenText {
   display: none;
   font-size: 20px;
   color: #82888e;
@@ -51,19 +51,21 @@
 .lastname:hover .hiddenText {
   display: inline;
 }
-
-.name-container {
+*/
+/*.name-container {
   margin: 100px auto;
   width: 500px;
   padding-left: 200px;
 }
-
+*/
 /*icons*/
 
 #icons {
-	position: absolute;
+	position: relative;
   bottom: 0;
-  left: 0;
+  right: 0;
+  text-align: center; 
+  
 }
 
 .icon {
@@ -71,6 +73,7 @@
 	height: 25px;
 	width: 25px;
 }
+
 
 /*links*/
 
@@ -95,18 +98,43 @@ a {
 
 /*ABOUT SECTION*/
 
+.about {
+	/*background-color: #f6f6f6;*/
+	font-family: 'sans-serif';
+}
+
 .about-me-json {
   font-size: 15px;
 }
 
 .name {
-  padding: 8px;
+  padding: 25px;
   color: #5f6c7a;
+  text-align: center; 
+  font-weight: 700;
 }
+
+.name:hover {
+	-webkit-background-clip: text;
+	color: white;
+	-webkit-text-fill-color: transparent;
+	background-color:#FFF;
+	background-image: 
+	-webkit-gradient(linear,left top,right top,from(#ea8711), to(#d96363));
+	background-image: 
+	-webkit-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79); 
+	background-image: 
+	-moz-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
+	background-image: 
+	-ms-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79); 
+	background-image: 
+	-o-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
+}
+
 
 /*PROJECTS*/
 
-.projects {
+/*.projects {
 	width: 100%;
 	color: white;
 	font-family: 'sans-serif';
@@ -115,7 +143,6 @@ a {
 }
 
 .pro {
-	font-family: 'sans-serif';
   color: #5f6c7a;
 }
 
@@ -152,10 +179,10 @@ a {
 
 .row {
 	clear: both;
-}
+}*/
 
 /*SCROLL TO TOP BUTTONS*/
-
+/*
 #top {
 	height: 3em;
 	display: block;
@@ -168,7 +195,7 @@ a {
 	font-family: 'Oleo Script';
 	font-size: 1em;
 	color: #bc1326;
-}
+}*/
 
 /*CLIPS*/
 
@@ -185,23 +212,27 @@ a {
 }
 
 .container a {
-	font-family: 'Oleo Script';
+	font-family: 'sans-serif';
 	text-decoration: none;
 	color: #bc1326;
+	font-weight: 700; 
 }
 
 .container p {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .container h3 {
-	font-size: 10px;
+	font-size: 25px;
+	color: #5f6c7a;
 }
 
 .archive {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .clips-text {
-	font-size: 10px;
+	font-size: 15px;
 }
+
+
