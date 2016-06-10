@@ -138,6 +138,7 @@ pre:hover {
   color: #5f6c7a;
   text-align: center; 
   font-weight: 700;
+  font-size: 100px; 
 }
 
 .name:hover {
@@ -261,3 +262,7 @@ pre:hover {
 	font-size: 15px;
 }
 
+.bigText-json:hover {
+	font-size: 20px; 
+	font-weight: 700; 
+}
