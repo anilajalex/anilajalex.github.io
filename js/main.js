@@ -1,3 +1,3 @@
-$( document ).mouseover(function() {
-  $( ".name" ).effect( "shake", {times:4}, 3500 );
-});
+// $( document ).mouseover(function() {
+//   $( ".name" ).effect( "shake", {times:4}, 3500 );
+// });

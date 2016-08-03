@@ -1,147 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 @import url(http://fonts.googleapis.com/css?family=Chivo:900);
-
-
-/*HOMEPAGE*/
-
-/*.title {
-  position: relative;
-  color: #bc1326;
-  padding: 20px 50px;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 75px;
-}
-
-.title:before {
-  background: #bc1326;
-  color: white;
-  content: 'ANILA';
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 50px;
-    -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
-  clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
-  animation: slide 4s 1s linear infinite;
-}
-
-@keyframes slide {
-  50% {
-    -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%);
-  }
-}
-
-.lastname {
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #bc1326;
-  padding-left: 60px;
-}*/
-
-/*.hiddenText {
-  display: none;
-  font-size: 20px;
-  color: #82888e;
-}
-
-.lastname:hover .hiddenText {
-  display: inline;
-}
-*/
-/*.name-container {
-  margin: 100px auto;
-  width: 500px;
-  padding-left: 200px;
-}
-*/
-/*icons*/
-
-div.container {
-	width: 1100px;
-}
-
-#icons {
-	position: relative;
-  bottom: 0;
-  right: 0;
-  text-align: center; 
-  
-}
-
-.icon {
-	display: inline;
-	height: 25px;
-	width: 25px;
-}
-
-
-/*links*/
-
-ul {
-	position: absolute;;
-	list-style-type: none;
-	font-size: 15px;
-  font-weight: 600;
-	color: black;
-  top: 0;
-  right: 0;
-}
-
-li {
-	display: inline;
-	padding: 10px;
-}
-
-a {
-	color: black;
-}
-
-/*ABOUT SECTION*/
-
-.about {
-	/*background-color: #f6f6f6;*/
-	font-family: 'sans-serif';
-}
-
-.about-me-json {
-  font-size: 15px;
-}
-
-pre {
-	width: 1100px;
-}
-
-
-pre:hover {
-	-webkit-background-clip: text;
-	color: white;
-	-webkit-text-fill-color: transparent;
-	background-color:#FFF;
-	background-image: 
-	-webkit-gradient(linear,left top,right top,from(#ea8711), to(#d96363));
-	background-image: 
-	-webkit-linear-gradient(left,#ea8711,#d96363,#d64d4d,#ffd632,#660000); 
-	background-image: 
-	-moz-linear-gradient(left,#ea8711,#d96363,#d64d4d,#ffd632,#660000);
-	background-image: 
-	-ms-linear-gradient(left,#ea8711,#d96363,#d64d4d,#ffd632,#660000); 
-	background-image: 
-	-o-linear-gradient(left,#ea8711,#d96363,#d64d4d,#ffd632,#660000);
-}
+@import url(https://fonts.googleapis.com/css?family=Russo+One|Nunito|Righteous|Acme|Comfortaa);
 
 .name {
-  padding: 25px;
+  padding: 40px;
   color: #5f6c7a;
   text-align: center; 
+  font-family: "Chivo", Serif; 
   font-weight: 700;
-  font-size: 100px; 
-}
-
-.name:hover {
+  font-size: 225px; 
 	-webkit-background-clip: text;
 	color: white;
 	-webkit-text-fill-color: transparent;
@@ -158,71 +26,69 @@ pre:hover {
 	-o-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
 }
 
-
-/*PROJECTS*/
-
-/*.projects {
-	width: 100%;
-	color: white;
-	font-family: 'sans-serif';
-  margin-top: 100px;
-  margin-bottom: 500px;
+.text {
+	text-align: center; 
 }
 
-.pro {
-  color: #5f6c7a;
+.pronounciation {
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
 
-.project {
-	height: 10em;
-	margin: 2em;
+
+/*icons*/
+
+#icons {
+	position: relative;
+  bottom: 0;
+  right: 0;
+  text-align: center;  
 }
 
-.project:hover {
-	opacity: 0.5;
+.icon {
+	display: inline;
+	height: 40px;
+	width: 40px;
 }
 
-.project1 {
-	float: left;
-	margin: auto;
+/*links*/
+
+ul {
+	position: absolute;;
+	list-style-type: none;
+  font-weight: 600;
+	color: black;
+  top: 0;
+  right: 0;
 }
 
-.project-link {
-	text-decoration: none;
-	font-family: 'sans-serif';
-	color: #bc1326;
-  display: inherit;
+li {
+	display: inline;
+	padding: 10px;
 }
 
-.column {
-	float: left;
-	width: 29%;
-	height: 100%;
-	padding-right: 2%;
-	padding-left: 2%;
-  color: black;
-  text-align: center;
+.imgWrap {
+  position: relative;
+  display: inline;
 }
 
-.row {
-	clear: both;
-}*/
-
-/*SCROLL TO TOP BUTTONS*/
-/*
-#top {
-	height: 3em;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
+.imgDescription {
+  position: absolute;
+  top: 25px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  
 }
 
-#thanks {
-	text-align: center;
-	font-family: 'Oleo Script';
-	font-size: 1em;
-	color: #bc1326;
-}*/
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
 
 /*CLIPS*/
 
@@ -266,3 +132,4 @@ pre:hover {
 	font-size: 20px; 
 	font-weight: 700; 
 }
+
