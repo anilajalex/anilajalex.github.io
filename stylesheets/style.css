@@ -33,9 +33,14 @@
 .pronounciation {
 	position: fixed;
 	left: 0;
-	bottom: 0;
+	bottom: 20px;
 }
 
+.clarification {
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+}
 
 /*icons*/
 
